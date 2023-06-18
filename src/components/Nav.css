@@ -1,0 +1,80 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #1d1f27;
+    color: #fff;
+    height: 60px;
+    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav__left {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    cursor: pointer;
+    flex: 1;
+
+}
+
+.nav__middle {
+    color: gray;
+    flex: 1;
+}
+
+.input__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+.input__wrapper input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    display: block;
+}
+
+.input__wrapper i {
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+.nav__right {
+    flex: 1;
+}
+
+.cart__icon {
+    font-size: 20px;
+    position: relative;
+    width: max-content;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart__icon i {
+    cursor: pointer;
+}
+
+.item__count {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    z-index: 10;
+    border-radius: 50%;
+    font-size: 10px;
+    height: 14px;
+    width: 14px;
+    top: -50%;
+    right: -50%;
+}
